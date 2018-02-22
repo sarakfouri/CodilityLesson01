@@ -10,7 +10,7 @@ String numbers = Integer.toBinaryString(N);
 			
 			}else{
 				big = Math.max(big, count);
-			
+				count = 0;
 			}
 	}
 	if (count != 0){
